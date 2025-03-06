@@ -1,3 +1,2 @@
-# git_odinproject
-odin project repo
-Hello odin
+<h1>🐍 Python<h1>
+<h2>📦 A collection of python projects</h2>
