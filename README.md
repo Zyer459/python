@@ -3,5 +3,6 @@
 <section>
   <ul>
     <li>Linear regression</li>
+    <li>expense_tracker</li>
   </ul>
 </section>
