@@ -3,6 +3,7 @@
 <section>
   <ul>
     <li>Linear regression</li>
-    <li>expense_tracker</li>
+    <li>Expense tracker</li>
+    <li>Hashing passwords</li>
   </ul>
 </section>
