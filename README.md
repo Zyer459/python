@@ -5,5 +5,6 @@
     <li>Linear regression</li>
     <li>Expense tracker</li>
     <li>Hashing passwords</li>
+    <li>Secured notebook</li>
   </ul>
 </section>
