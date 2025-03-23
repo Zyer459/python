@@ -6,5 +6,6 @@
     <li>Expense tracker</li>
     <li>Hashing passwords</li>
     <li>Secured notebook</li>
+    <li>simple chatbot</li>
   </ul>
 </section>
