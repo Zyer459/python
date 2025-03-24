@@ -11,7 +11,8 @@ args = parser.parse_args()
 password = args.password
 hashtype = args.type
 m = getattr(hashlib,hashtype)()
-m.update(password.encode())
+m.update(password.encode()) #.encode() converts the 'password' into bytes because hash functions in Python require bytes, not strings
+# m.update() processes the encoded password and adds it to the hash object.
 
 #output
 print(f'< hash-type: {hashtype} >')
