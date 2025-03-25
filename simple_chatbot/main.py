@@ -1,3 +1,4 @@
+# requirements run in terminal->pip install -r requirements.txt
 import nltk
 '''all run in venv & download once
 nltk.download('punkt_tab')
