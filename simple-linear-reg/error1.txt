@@ -1,0 +1,14 @@
+trying to run viz.hist() then ply.show() on my local machine but returns error: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown plt.show()
+
+why:
+This warning typically occurs when the backend used by Matplotlib is not set to an interactive one.
+
+solution:
+	set the backend:
+		matplotlib.use('TkAgg')  # or 'Qt5Agg'
+Check Your Environment: Ensure that your local environment supports the interactive backend you choose. You might need to install additional packages like tkinter or PyQt5 if they are not already installed.
+
+Use %matplotlib inline: If you're working in a Jupyter Notebook
+
+error2: the regressor.fit() expects 2D array if given 1D array it throws valueError
+fix: regressor.fit(x_train.reshape(-1,1))
