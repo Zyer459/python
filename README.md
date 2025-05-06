@@ -8,5 +8,6 @@
     <li>Secured notebook</li>
     <li>Simple chatbot</li>
     <li>Numpy project</li>
+    <li>Simple Linear Regression with scikit-learn</li>
   </ul>
 </section>
